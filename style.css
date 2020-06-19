@@ -1,0 +1,354 @@
+.pages {
+    display: none;
+}
+
+.navigatorDiv {
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    margin: 10px;
+}
+
+.navBtn {
+    width: 32%;
+    height: inherit;
+    background-color: white;
+    color: #0d5eba;
+    border: 2px solid #0d5eba;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.navBtn:hover {
+    background-color: #0f6ad1;
+    color: white;
+    box-shadow: inset 0 0 2px 0 rgba(255, 255, 255, .4), inset 0 0 3px 0 rgba(0, 0, 0, .4), inset 0 0 3px 5px rgba(0, 0, 0, .05), 2px 2px 4px 0 rgba(0, 0, 0, .25);
+}
+
+.navBtn:active {
+    background-color: #0d5eba;
+    color: white;
+}
+
+.header {
+    background-color: #0d5eba;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+}
+
+.black-stripe {
+    top: 20%;
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 275px;
+    height: 55px;
+    margin: 10px;
+}
+
+.download {
+    margin: 20px;
+    /* font-family: 'Spinnaker', sans-serif; */
+    color: #0d5eba;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+#downloadBtn {
+    width: 40%;
+    height: inherit;
+    background-color: #0d5eba;
+    color: white;
+    border: 2px solid #0d5eba;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    float: right;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 25px;
+    transition-duration: 0.3s;
+}
+
+#downloadBtn:hover {
+    background-color: #298dff;
+    color: white;
+    box-shadow: inset 0 0 2px 0 rgba(255, 255, 255, .4), inset 0 0 3px 0 rgba(0, 0, 0, .4), inset 0 0 3px 5px rgba(0, 0, 0, .05), 2px 2px 4px 0 rgba(0, 0, 0, .25);
+}
+
+.slideshow {
+    max-width: 100%;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.homeSlide {
+    display: none;
+    max-height: 500px;
+    height: 500px;
+    width: inherit;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.footerLinks {
+    margin: auto;
+    display: block;
+    margin: 10px;
+    margin-left: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+    background-color: rgba(251, 243, 212, 0.9);
+    text-align: center;
+    vertical-align: middle;
+}
+
+#closeLightbox {
+    display: none;
+    background-color: rgba(251, 243, 212, 0.9);
+    ;
+    color: black;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#closeLightbox:focus {
+    color: #999;
+    text-decoration: none;
+}
+
+#comingSoon {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 100px;
+}
+
+.span-text {
+    word-wrap: normal;
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+}
+
+.mailForm {
+    font-family: 'Sen', sans-serif;
+    padding: 10px;
+    font-size: 18;
+}
+
+#submit_form {
+    background-color: white;
+    border: #298dff solid 2px;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#submit_form:hover {
+    background-color: #298dff;
+    color: white;
+}
+
+.card {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px gray;
+    width: 35%;
+    /* height: auto; */
+    text-align: center;
+}
+
+.card-image {
+    height: auto;
+    width: 90%;
+    padding: 5px;
+    box-shadow: 2px 2px 4px gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.card-text {
+    padding-top: 10px;
+}
+
+.headings {
+    padding: 10px;
+    text-decoration: underline;
+    font-family: 'Sen', sans-serif;
+    font-size: 38;
+    color: #0d5eba;
+    font-weight: bold;
+}
+
+.subheadings {
+    padding: 10px;
+    text-decoration: underline;
+    font-family: 'Sen', sans-serif;
+    font-size: 30;
+    color: #0d5eba;
+}
+
+br {
+    display: block;
+    content: '';
+    margin: 5px;
+}
+
+table {
+    margin: 10px;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 18;
+    text-align: center;
+}
+
+tr,
+td,
+th {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #242424;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f6f6f6;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sub-subheadings {
+    padding: 10px;
+    font-family: 'Sen', sans-serif;
+    font-size: 24;
+    color: #0d5eba;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(42, 42, 42);
+    font-weight: bold;
+    font-size: 36px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a grey background color */
+
+.prev:hover,
+.next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
