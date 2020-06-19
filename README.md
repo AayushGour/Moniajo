@@ -1,3 +1,3 @@
-# AayushGour.github.io
+# AayushGour.github.io/Moniajo
 
-A small static website to describe our project, Moniajo - The gesture controlled robot
+A small static website to describe our project, Moniajo - A gesture controlled robot
